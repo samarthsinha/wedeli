@@ -41,8 +41,9 @@ OnChildClickListener {
 	
 @Override
 public void onCreate(Bundle b) {
+	
 super.onCreate(b);
-
+Log.d("TAG : FLOW","ExpandableListViewActivity");
 
 
 layout = new LinearLayout(this);

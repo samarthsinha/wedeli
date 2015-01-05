@@ -55,6 +55,7 @@ public class History extends Activity{
 	  @Override
 	    public void onCreate(Bundle savedInstanceState) {
 		    super.onCreate(savedInstanceState);
+		    Log.d("TAG: FLOW","History");
 		    /*requestWindowFeature(Window.FEATURE_NO_TITLE);
 			getWindow().setFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);*/
 		    String orderUrl=getString(R.string.ipadd)+"showHistory.php";

@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.text.InputType;
+import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ public class orderpage extends Activity{
 	 @Override
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
+	        Log.d("TAG: FLOW","orderpage");
 	        setContentView(R.layout.op);
 	        savedInstanceState=getIntent().getExtras();
 	        String x=savedInstanceState.getString("p");

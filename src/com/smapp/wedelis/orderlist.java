@@ -48,6 +48,7 @@ public class orderlist extends Activity{
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.op);
+	        Log.d("TAG: FLOW","OrderList");
 	        dbHelper = new MySQLiteHelper(this);
 			db =dbHelper.getWritableDatabase();
 			

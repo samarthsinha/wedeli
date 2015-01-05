@@ -269,7 +269,7 @@ public class MenuMainActivity extends Activity {
     						je.printStackTrace();
     					}
     					ListView lv = (ListView)findViewById(R.id.listview);
-    	 	    	    catadapter adapter = new catadapter(this, catname);
+    	 	    	    CategoryAdapter adapter = new CategoryAdapter(this, catname);
     	 	    		lv.setAdapter(adapter);
     	 	            lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 

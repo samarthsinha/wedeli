@@ -57,7 +57,7 @@ public class MainActivity extends Activity implements OnClickListener {
         super.onCreate(savedInstanceState);
         /*requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);*/
-		
+        Log.d("TAG: FLOW","MainActivity");
         SharedPreferences autLog=PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
        if(autLog.getBoolean("SAVE", false))
        {

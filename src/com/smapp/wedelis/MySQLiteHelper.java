@@ -17,7 +17,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
 	}
 
 		public static final String DB_NAME = "wedeli_orders.db";
-		public static final int DB_VERSION = 1;
+		public static final int DB_VERSION = 2;
 		public static final String TABLE = "orders";
 		public static final String C_ID = BaseColumns._ID;
 		public static final String C_NAME  = "t_name";

@@ -5,7 +5,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="19" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
@@ -32,6 +32,10 @@
              android:screenOrientation="landscape" 
              android:name=".json_parse"
              android:noHistory="false" ></activity>
+         <activity
+             android:screenOrientation="landscape" 
+             android:name="com.smapp.wedelis.MenuMainActivity"
+             android:noHistory="false" ></activity>
          <activity 
              android:name=".ExpandableListViewActivity"
              android:screenOrientation="landscape"
@@ -41,6 +45,18 @@
          <activity
              android:screenOrientation="landscape" 
              android:name=".RegisterAct"
+             android:noHistory="true"></activity>
+         <activity
+             android:screenOrientation="landscape" 
+             android:name="com.smapp.wedelis.orderpage"
+             android:noHistory="true"></activity>
+         <activity
+             android:screenOrientation="landscape" 
+             android:name="com.smapp.wedelis.orderlist"
+             android:noHistory="true"></activity>
+         <activity
+             android:screenOrientation="landscape" 
+             android:name="com.smapp.wedelis.thankyou"
              android:noHistory="true"></activity>
          
          <activity

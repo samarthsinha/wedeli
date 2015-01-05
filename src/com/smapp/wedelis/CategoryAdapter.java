@@ -7,11 +7,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-public class catadapter extends ArrayAdapter<String> 
+public class CategoryAdapter extends ArrayAdapter<String> 
 {
 	private final Activity context;
 	private final String[] names;
-	public catadapter(Activity context,String[] names) {
+	public CategoryAdapter(Activity context,String[] names) {
 		super(context, R.layout.rowlayout, names);
 		// TODO Auto-generated constructor stub
 		this.context =context;

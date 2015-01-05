@@ -36,6 +36,7 @@
             </ImageView>
 
             <LinearLayout
+                android:orientation="vertical"
                 android:id="@+id/layout2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"

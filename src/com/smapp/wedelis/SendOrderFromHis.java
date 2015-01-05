@@ -40,6 +40,7 @@ EditText quantity;
 protected void onCreate(Bundle b) {
 	// TODO Auto-generated method stub
 	super.onCreate(b);
+	Log.d("TAG: FLOW","SendOrderFromHis");
 	b=getIntent().getExtras();
 	menu_id=b.getString("menu_id");
 	menu_name=b.getString("menu_name");

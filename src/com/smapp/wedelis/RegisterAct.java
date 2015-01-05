@@ -41,6 +41,7 @@ public class RegisterAct extends Activity {
 @Override
 protected void onCreate(Bundle savedInstanceState) {
 	super.onCreate(savedInstanceState);
+	Log.d("TAG: FLOW","RegisterAct");
 	/*requestWindowFeature(Window.FEATURE_NO_TITLE);
 	getWindow().setFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);*/
 	setContentView(R.layout.register);

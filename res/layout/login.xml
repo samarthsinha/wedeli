@@ -10,7 +10,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
      >
-
+
+
      <EditText
          android:id="@+id/email_log"
          android:layout_width="match_parent"
@@ -24,7 +25,9 @@
 
         <requestFocus />
      </EditText>
-
+
+
+
     <EditText
         android:id="@+id/passwd"
         android:layout_width="match_parent"
@@ -37,7 +40,8 @@
         android:inputType="textPassword" >
         
     </EditText>
-
+
+
  <LinearLayout
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
@@ -52,7 +56,9 @@
          android:layout_width="264dp"
          android:layout_height="wrap_content"
          android:text="@string/loginBut" />
-
+
+
+
      <CheckBox
          android:id="@+id/rememberChe"
          android:layout_width="200dp"
